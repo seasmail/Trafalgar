@@ -1,0 +1,58 @@
+.dis-flex {
+  display: flex; }
+
+.align-items-center {
+  align-items: center; }
+
+.justify-content-center {
+  justify-content: center; }
+
+.justify-content-space-between {
+  justify-content: space-between; }
+
+.flex-direction-column {
+  flex-direction: column; }
+
+.hello {
+  height: 10vh;
+  width: 100%;
+  margin-bottom: 10rem; }
+  .hello .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem; }
+    .hello .logo div {
+      margin-left: 1rem; }
+    .hello .logo span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      vertical-align: center;
+      border-radius: 50%;
+      background-color: #458ff6;
+      color: white;
+      width: 1.8rem;
+      height: 1.8rem; }
+  .hello .navigation {
+    margin-right: 2rem; }
+    .hello .navigation .spisok {
+      display: flex;
+      list-style: none; }
+      .hello .navigation .spisok a {
+        text-decoration: none;
+        margin: 1rem; }
+
+.block1 {
+  padding-left: 4rem; }
+  .block1 .zalupa {
+    width: 50%; }
+  .block1 img {
+    margin-right: 2rem;
+    width: 50%; }
+  .block1 .podblock3 {
+    border-radius: 1.5rem;
+    border-color: #458ff6;
+    background-color: #458ff6;
+    font-family: Muli;
+    color: white;
+    height: 40px; }
