@@ -23,7 +23,7 @@
 
 
 
-.hello {
+.header {
 	height: 10vh;
 	width: 100%;
 	margin-bottom: 10rem;
@@ -49,7 +49,7 @@
 	}
 	.navigation {
 		margin-right: 2rem;
-		.spisok {
+		.list {
 			display: flex;
 			list-style: none;
 			a {
@@ -61,16 +61,16 @@
 	}
 }
 
-.block1 {
+.first-section {
 	padding-left: 4rem;
-	.zalupa {
+	.first-content {
 		width: 50%;
 	}
 	img {
 		margin-right: 2rem;
 		width: 50%;
 	}
-	.podblock3 {
+	.f-button {
 		border-radius: 1.5rem;
 		border-color: #458ff6;
 		background-color: #458ff6;

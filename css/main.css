@@ -13,17 +13,17 @@
 .flex-direction-column {
   flex-direction: column; }
 
-.hello {
+.header {
   height: 10vh;
   width: 100%;
   margin-bottom: 10rem; }
-  .hello .logo {
+  .header .logo {
     display: flex;
     align-items: center;
     padding-left: 3rem; }
-    .hello .logo div {
+    .header .logo div {
       margin-left: 1rem; }
-    .hello .logo span {
+    .header .logo span {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -33,23 +33,23 @@
       color: white;
       width: 1.8rem;
       height: 1.8rem; }
-  .hello .navigation {
+  .header .navigation {
     margin-right: 2rem; }
-    .hello .navigation .spisok {
+    .header .navigation .list {
       display: flex;
       list-style: none; }
-      .hello .navigation .spisok a {
+      .header .navigation .list a {
         text-decoration: none;
         margin: 1rem; }
 
-.block1 {
+.first-section {
   padding-left: 4rem; }
-  .block1 .zalupa {
+  .first-section .first-content {
     width: 50%; }
-  .block1 img {
+  .first-section img {
     margin-right: 2rem;
     width: 50%; }
-  .block1 .podblock3 {
+  .first-section .f-button {
     border-radius: 1.5rem;
     border-color: #458ff6;
     background-color: #458ff6;
