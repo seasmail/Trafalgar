@@ -1,3 +1,6 @@
+body {
+  font-family: Muli; }
+
 .dis-flex {
   display: flex; }
 
@@ -15,8 +18,9 @@
 
 .header {
   height: 10vh;
-  width: 100%;
-  margin-bottom: 10rem; }
+  width: 70%;
+  margin: auto;
+  margin-bottom: 6rem; }
   .header .logo {
     display: flex;
     align-items: center;
@@ -34,7 +38,7 @@
       width: 1.8rem;
       height: 1.8rem; }
   .header .navigation {
-    margin-right: 2rem; }
+    margin-right: 6rem; }
     .header .navigation .list {
       display: flex;
       list-style: none; }
@@ -43,16 +47,25 @@
         margin: 1rem; }
 
 .first-section {
-  padding-left: 4rem; }
+  margin: auto;
+  width: 70%; }
   .first-section .first-content {
+    padding: 3rem;
     width: 50%; }
   .first-section img {
-    margin-right: 2rem;
+    margin-right: 6rem;
     width: 50%; }
   .first-section .f-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 1.5rem;
     border-color: #458ff6;
     background-color: #458ff6;
     font-family: Muli;
     color: white;
-    height: 40px; }
+    height: 60px;
+    width: 200px; }
+    .first-section .f-button a {
+      text-decoration: none;
+      color: white; }

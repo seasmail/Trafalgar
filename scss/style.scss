@@ -1,4 +1,6 @@
-
+body {
+	font-family: Muli;
+}
 
 
 .dis-flex {
@@ -25,8 +27,9 @@
 
 .header {
 	height: 10vh;
-	width: 100%;
-	margin-bottom: 10rem;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 6rem;
 	.logo {
 		display: flex;
 		align-items: center;
@@ -48,7 +51,7 @@
 		}
 	}
 	.navigation {
-		margin-right: 2rem;
+		margin-right: 6rem;
 		.list {
 			display: flex;
 			list-style: none;
@@ -62,21 +65,31 @@
 }
 
 .first-section {
-	padding-left: 4rem;
+	margin: auto;
+	width: 70%;
 	.first-content {
+		padding: 3rem;
 		width: 50%;
 	}
 	img {
-		margin-right: 2rem;
+		margin-right: 6rem;
 		width: 50%;
 	}
 	.f-button {
+		display: flex;
+  		align-items: center;
+  		justify-content: center; 
 		border-radius: 1.5rem;
 		border-color: #458ff6;
 		background-color: #458ff6;
 		font-family: Muli;
 		color: white;
-		height: 40px;
+		height: 60px;
+		width: 200px;
+		a {
+			text-decoration: none;
+			color: white;
+		}
 	}
 
 }
