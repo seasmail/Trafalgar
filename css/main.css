@@ -21,13 +21,13 @@ body {
   width: 70%;
   margin: auto;
   margin-bottom: 6rem; }
-  .header .logo {
+  .header .header_logo {
     display: flex;
     align-items: center;
     padding-left: 3rem; }
-    .header .logo div {
+    .header .header_logo .header-logo_text {
       margin-left: 1rem; }
-    .header .logo span {
+    .header .header_logo .header-logo_span {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -37,25 +37,25 @@ body {
       color: white;
       width: 1.8rem;
       height: 1.8rem; }
-  .header .navigation {
+  .header .header_navigation {
     margin-right: 6rem; }
-    .header .navigation .list {
+    .header .header_navigation .header-navigation_list {
       display: flex;
       list-style: none; }
-      .header .navigation .list a {
+      .header .header_navigation .header-navigation_list a {
         text-decoration: none;
         margin: 1rem; }
 
-.first-section {
+.content {
   margin: auto;
   width: 70%; }
-  .first-section .first-content {
+  .content .content_block {
     padding: 3rem;
     width: 50%; }
-  .first-section img {
+  .content img {
     margin-right: 6rem;
     width: 50%; }
-  .first-section .f-button {
+  .content .content-block_buton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,6 +66,6 @@ body {
     color: white;
     height: 60px;
     width: 200px; }
-    .first-section .f-button a {
+    .content .content-block_buton a {
       text-decoration: none;
       color: white; }
